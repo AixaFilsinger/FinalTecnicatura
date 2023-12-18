@@ -20,7 +20,6 @@ const Menu = ({usuarioLogeado,setUsuarioLogeado}) => {
           <Navbar.Brand as={Link} to={'/'}>CafecitoCat</Navbar.Brand>
           <Nav className="me-5">
             <NavLink end className={'nav-item nav-link'} to={'/'}>Inicio</NavLink>
-            <NavLink end className={'nav-item nav-link'} to={'/registro'}>Registro</NavLink>
             {
               usuarioLogeado.email ? (
                 <>

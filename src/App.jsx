@@ -5,12 +5,9 @@ import Footer from './components/common/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Registro from './components/views/Registro';
 import Login from './components/views/Login';
 import Administrador from './components/views/Administrador';
 import DetalleProducto from './components/views/DetalleProducto';
-import CrearProducto from './components/views/producto/CrearProducto'
-import EditarProducto from './components/views/producto/EditarProducto'
 import Error404 from './components/views/Error404'
 import './App.css'
 import { useState } from 'react';
@@ -26,7 +23,6 @@ function App() {
     <Menu usuarioLogeado={usuarioLogeado} setUsuarioLogeado={setUsuarioLogeado}></Menu>
     <Routes>
       <Route exact path='/' element={<Inicio></Inicio>}></Route>
-      <Route exact path='/registro' element={<Registro></Registro>}></Route>
       <Route exact path='/login' element={<Login setUsuarioLogeado={setUsuarioLogeado}></Login>}></Route>
       <Route path='/administrador/*' element={
         <RutasProtegidas>
