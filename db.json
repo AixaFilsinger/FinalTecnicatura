@@ -1,0 +1,35 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombreProducto": "café",
+      "precio": 200,
+      "categoria": "bebida caliente",
+      "descripcion": "alguna descripcion",
+      "imagen": "linkdeimagen"
+    },
+    {
+      "id": 2,
+      "nombreProducto": "té",
+      "precio": 100,
+      "categoria": "bebida caliente",
+      "descripcion": "alguna descripcion",
+      "imagen": "linkdeimagen"
+    },
+    {
+      "nombreProducto": "Torta Rogel",
+      "precio": "6500",
+      "imagen": "https://i.postimg.cc/3J5rC6zw/Mateo-Bellini.jpg",
+      "categoria": "dulce",
+      "id": 4
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombreUsuario": "admin",
+      "email": "admin@rollingcode.com",
+      "password": "123456A#a"
+    }
+  ]
+}
